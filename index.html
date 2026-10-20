@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#100d28"
+    >
+
+    <meta
+        name="description"
+        content="A magical little universe made with love for Kallul's 23rd birthday and our second anniversary."
+    >
+
+    <title>KALLUL-23 | A Little Universe, Just for You</title>
+
+    <!-- Custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Our design file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- =========================================
+         BACKGROUND UNIVERSE
+    ========================================== -->
+
+    <div id="star-background" aria-hidden="true"></div>
+
+    <div class="ambient-glow glow-one" aria-hidden="true"></div>
+
+    <div class="ambient-glow glow-two" aria-hidden="true"></div>
+
+    <div class="ambient-glow glow-three" aria-hidden="true"></div>
+
+
+    <!-- =========================================
+         TOP NAVIGATION
+    ========================================== -->
+
+    <header class="topbar">
+
+        <a href="#welcome" class="brand" aria-label="KALLUL 23 home">
+            KALLUL <span class="brand-star">✦</span> 23
+        </a>
+
+        <div class="topbar-right">
+
+            <div class="star-counter" aria-live="polite">
+                <span>⭐</span>
+
+                <span id="star-count">0</span>
+
+                <span>/ 5 STARS</span>
+
+            </div>
+
+            <button
+                class="sound-toggle"
+                id="sound-toggle"
+                type="button"
+                aria-label="Toggle sound"
+            >
+                ♫
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================
+         MAIN WEBSITE
+    ========================================== -->
+
+    <main id="main-content">
+
+
+        <!-- =====================================
+             1. MAGICAL WELCOME
+        ====================================== -->
+
+        <section
+            id="welcome"
+            class="page hero-section"
+        >
+
+            <div class="hero-universe">
+
+                <div class="orbit orbit-one"></div>
+
+                <div class="orbit orbit-two"></div>
+
+                <div class="hero-moon">
+                    ☾
+                </div>
+
+                <span class="floating-star star-one">✦</span>
+
+                <span class="floating-star star-two">✧</span>
+
+                <span class="floating-star star-three">✦</span>
+
+                <span class="floating-star star-four">✧</span>
+
+                <span class="floating-star star-five">✦</span>
+
+                <span class="floating-heart">♡</span>
+
+            </div>
+
+
+            <p class="eyebrow">
+                A LITTLE UNIVERSE, JUST FOR YOU
+            </p>
+
+
+            <h1 class="hero-title">
+
+                Happy Birthday,
+
+                <span class="hero-name">
+                    Kallul.
+                </span>
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Somewhere between the stars, the forests,
+                and all our little moments, there is a
+                universe that belongs only to you.
+
+            </p>
+
+
+            <p class="hero-date">
+
+                19 OCTOBER 2024
+
+                <span>♡</span>
+
+                FOREVER OUR LITTLE BEGINNING
+
+            </p>
+
+
+            <button
+                class="primary-button"
+                type="button"
+                data-go="universe"
+            >
+
+                Enter Our Universe
+
+                <span>✧</span>
+
+            </button>
+
+
+            <p class="hero-footnote">
+
+                Made with love, for my favourite person.
+
+                <span>♡</span>
+
+            </p>
+
+
+            <div class="scroll-indicator" aria-hidden="true">
+
+                <span>SCROLL INTO OUR LITTLE WORLD</span>
+
+                <span class="scroll-arrow">↓</span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             2. UNIVERSE MAP
+        ====================================== -->
+
+        <section
+            id="universe"
+            class="page universe-section hidden"
+        >
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    YOUR LITTLE UNIVERSE
+                </p>
+
+                <h2>
+                    Where shall we wander?
+                </h2>
+
+                <p>
+                    Every little world holds a surprise.
+                    Explore them all, collect five magical
+                    stars, and discover your birthday finale.
+                </p>
+
+            </div>
+
+
+            <div class="universe-map">
+
+
+                <!-- Firefly Forest -->
+
+                <button
+                    class="world-card world-forest"
+                    type="button"
+                    data-go="forest"
+                >
+
+                    <span class="world-art">🌲</span>
+
+                    <span class="world-title">
+                        Firefly Forest
+                    </span>
+
+                    <span class="world-description">
+                        Five tiny lights are waiting for you.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Wildwood -->
+
+                <button
+                    class="world-card world-wildwood"
+                    type="button"
+                    data-go="wildwood"
+                >
+
+                    <span class="world-art">🍃</span>
+
+                    <span class="world-title">
+                        Wildwood
+                    </span>
+
+                    <span class="world-description">
+                        Find your peaceful corner of nature.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Memory Moon -->
+
+                <button
+                    class="world-card world-memories"
+                    type="button"
+                    data-go="memories"
+                >
+
+                    <span class="world-art">🌙</span>
+
+                    <span class="world-title">
+                        Memory Moon
+                    </span>
+
+                    <span class="world-description">
+                        Little moments, endless feelings.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Star Room -->
+
+                <button
+                    class="world-card world-stars"
+                    type="button"
+                    data-go="star-room"
+                >
+
+                    <span class="world-art">🌌</span>
+
+                    <span class="world-title">
+                        Star Room
+                    </span>
+
+                    <span class="world-description">
+                        Connect the stars in the night sky.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Birthday Garden -->
+
+                <button
+                    class="world-card world-garden"
+                    type="button"
+                    data-go="garden"
+                >
+
+                    <span class="world-art">🌱</span>
+
+                    <span class="world-title">
+                        Birthday Garden
+                    </span>
+
+                    <span class="world-description">
+                        Grow something beautiful.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Cake Studio -->
+
+                <button
+                    class="world-card world-cake"
+                    type="button"
+                    data-go="cake-studio"
+                >
+
+                    <span class="world-art">🎂</span>
+
+                    <span class="world-title">
+                        Cake Studio
+                    </span>
+
+                    <span class="world-description">
+                        Decorate a birthday cake with love.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Badminton Moon -->
+
+                <button
+                    class="world-card world-badminton"
+                    type="button"
+                    data-go="badminton"
+                >
+
+                    <span class="world-art">🏸</span>
+
+                    <span class="world-title">
+                        Badminton Moon
+                    </span>
+
+                    <span class="world-description">
+                        A tiny challenge for our champion.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Secret Library -->
+
+                <button
+                    class="world-card world-library"
+                    type="button"
+                    data-go="secret-door"
+                >
+
+                    <span class="world-art">📚</span>
+
+                    <span class="world-title">
+                        Secret Library
+                    </span>
+
+                    <span class="world-description">
+                        A little secret is hidden inside.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+
+                <!-- Grand Finale -->
+
+                <button
+                    class="world-card world-finale"
+                    type="button"
+                    data-go="finale"
+                >
+
+                    <span class="world-art">💫</span>
+
+                    <span class="world-title">
+                        Grand Finale
+                    </span>
+
+                    <span class="world-description">
+                        Five stars unlock your final surprise.
+                    </span>
+
+                    <span class="world-enter">
+                        EXPLORE ✧
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+            <div class="universe-footer">
+
+                <span>✦</span>
+
+                Take your time. This little universe is yours.
+
+                <span>✦</span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             3. FIREFLY FOREST
+        ====================================== -->
+
+        <section
+            id="forest"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    THE FOREST IS ALIVE
+                </p>
+
+                <h2>
+                    Catch the Little Lights
+                </h2>
+
+                <p>
+                    Five little fireflies are hiding in
+                    this forest. Tap each one to discover
+                    the tiny message it carries for you.
+                </p>
+
+            </div>
+
+
+            <div
+                id="firefly-field"
+                class="firefly-field"
+            >
+
+                <div class="forest-decoration forest-tree-one">
+                    🌲
+                </div>
+
+                <div class="forest-decoration forest-tree-two">
+                    🌳
+                </div>
+
+                <button
+                    class="firefly"
+                    type="button"
+                    data-message="You make ordinary days feel special."
+                    aria-label="Discover the first firefly message"
+                >
+                    ✦
+                </button>
+
+                <button
+                    class="firefly"
+                    type="button"
+                    data-message="You deserve a world full of gentle things."
+                    aria-label="Discover the second firefly message"
+                >
+                    ✧
+                </button>
+
+                <button
+                    class="firefly"
+                    type="button"
+                    data-message="I hope this year brings you beautiful adventures."
+                    aria-label="Discover the third firefly message"
+                >
+                    ✦
+                </button>
+
+                <button
+                    class="firefly"
+                    type="button"
+                    data-message="Thank you for being part of my little universe."
+                    aria-label="Discover the fourth firefly message"
+                >
+                    ✧
+                </button>
+
+                <button
+                    class="firefly"
+                    type="button"
+                    data-message="Today, this whole little world celebrates you."
+                    aria-label="Discover the fifth firefly message"
+                >
+                    ✦
+                </button>
+
+            </div>
+
+
+            <p
+                id="firefly-message"
+                class="activity-message"
+                aria-live="polite"
+            >
+                Five little lights. Five little surprises.
+            </p>
+
+
+            <p id="firefly-progress">
+                Fireflies discovered: 0 / 5
+            </p>
+
+
+            <button
+                class="secondary-button"
+                type="button"
+                data-go="universe"
+            >
+                Return to the stars
+            </button>
+
+        </section>
+
+
+
+        <!-- =====================================
+             4. WILDWOOD
+        ====================================== -->
+
+        <section
+            id="wildwood"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    A QUIET CORNER OF THE WORLD
+                </p>
+
+                <h2>
+                    Where Would You Wander?
+                </h2>
+
+                <p>
+                    Imagine a day with cool air, green trees,
+                    quiet skies, and nowhere you need to be.
+                    Choose the place that feels like peace.
+                </p>
+
+            </div>
+
+
+            <div class="nature-options">
+
+
+                <button
+                    class="nature-option"
+                    type="button"
+                    data-nature="mountains"
+                >
+
+                    <span class="nature-emoji">🏔️</span>
+
+                    <span class="nature-name">
+                        The Mountain Cabin
+                    </span>
+
+                    <span class="nature-detail">
+                        Misty mornings and cool mountain air.
+                    </span>
+
+                </button>
+
+
+
+                <button
+                    class="nature-option"
+                    type="button"
+                    data-nature="forest"
+                >
+
+                    <span class="nature-emoji">🌳</span>
+
+                    <span class="nature-name">
+                        The Forest Trail
+                    </span>
+
+                    <span class="nature-detail">
+                        Birds singing beneath the trees.
+                    </span>
+
+                </button>
+
+
+
+                <button
+                    class="nature-option"
+                    type="button"
+                    data-nature="river"
+                >
+
+                    <span class="nature-emoji">🌊</span>
+
+                    <span class="nature-name">
+                        The Quiet River
+                    </span>
+
+                    <span class="nature-detail">
+                        Gentle water and a slow afternoon.
+                    </span>
+
+                </button>
+
+
+
+                <button
+                    class="nature-option"
+                    type="button"
+                    data-nature="garden"
+                >
+
+                    <span class="nature-emoji">🌷</span>
+
+                    <span class="nature-name">
+                        The Flower Garden
+                    </span>
+
+                    <span class="nature-detail">
+                        Flowers, butterflies, and sunlight.
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+            <div
+                id="nature-result"
+                class="result-card"
+                aria-live="polite"
+            >
+
+                <span class="result-icon">🍃</span>
+
+                <p>
+                    Your peaceful place is waiting to be discovered.
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             5. MEMORY MOON
+        ====================================== -->
+
+        <section
+            id="memories"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    OUR LITTLE TIMELINE
+                </p>
+
+                <h2>
+                    Two Years Under the Same Moon
+                </h2>
+
+                <p>
+                    Some moments are small when they happen,
+                    but somehow they become the memories
+                    we want to keep forever.
+                </p>
+
+            </div>
+
+
+            <div class="memory-timeline">
+
+
+                <article class="memory-card">
+
+                    <div class="memory-date">
+                        19 OCTOBER 2024
+                    </div>
+
+                    <div class="memory-icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        The Beginning
+                    </h3>
+
+                    <p>
+                        The day our little story began.
+                        One date, two hearts, and so many
+                        unwritten pages ahead of us.
+                    </p>
+
+                    <button
+                        class="memory-reveal-button"
+                        type="button"
+                    >
+                        Keep this memory close ♡
+                    </button>
+
+                    <div class="memory-extra hidden">
+                        If I could visit one beginning again,
+                        it would be the beginning of us.
+                    </div>
+
+                </article>
+
+
+
+                <article class="memory-card">
+
+                    <div class="memory-date">
+                        OUR LITTLE EVERYDAY
+                    </div>
+
+                    <div class="memory-icon">
+                        ☁️
+                    </div>
+
+                    <h3>
+                        Our Conversations
+                    </h3>
+
+                    <p>
+                        Little talks, silly moments, and
+                        ordinary conversations that slowly
+                        became a part of my favourite days.
+                    </p>
+
+                    <button
+                        class="memory-reveal-button"
+                        type="button"
+                    >
+                        Keep this memory close ♡
+                    </button>
+
+                    <div class="memory-extra hidden">
+                        Sometimes the smallest conversations
+                        leave the warmest feelings.
+                    </div>
+
+                </article>
+
+
+
+                <article class="memory-card">
+
+                    <div class="memory-date">
+                        THE LITTLE THINGS
+                    </div>
+
+                    <div class="memory-icon">
+                        ✨
+                    </div>
+
+                    <h3>
+                        The Moments That Matter
+                    </h3>
+
+                    <p>
+                        The little things that may look
+                        ordinary to the world, but mean
+                        something special to me.
+                    </p>
+
+                    <button
+                        class="memory-reveal-button"
+                        type="button"
+                    >
+                        Keep this memory close ♡
+                    </button>
+
+                    <div class="memory-extra hidden">
+                        Not every beautiful memory needs
+                        a grand occasion. Some just need us.
+                    </div>
+
+                </article>
+
+
+
+                <article class="memory-card">
+
+                    <div class="memory-date">
+                        STILL BEING WRITTEN
+                    </div>
+
+                    <div class="memory-icon">
+                        🌙
+                    </div>
+
+                    <h3>
+                        All the Pages Ahead
+                    </h3>
+
+                    <p>
+                        There are places to explore,
+                        stories to tell, and so many
+                        ordinary days still waiting for us.
+                    </p>
+
+                    <button
+                        class="memory-reveal-button"
+                        type="button"
+                    >
+                        Keep this memory close ♡
+                    </button>
+
+                    <div class="memory-extra hidden">
+                        This isn't the end of our story.
+                        It's another little page in it.
+                    </div>
+
+                </article>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             6. STAR ROOM
+        ====================================== -->
+
+        <section
+            id="star-room"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    A SKY FULL OF POSSIBILITY
+                </p>
+
+                <h2>
+                    The Star Room
+                </h2>
+
+                <p>
+                    Every constellation begins with a single star.
+                    Tap the glowing stars in this order:
+                </p>
+
+                <div class="sequence">
+                    1 <span>→</span> 2 <span>→</span> 3
+                </div>
+
+            </div>
+
+
+            <div class="constellation-board">
+
+                <button
+                    class="constellation-star"
+                    type="button"
+                    data-star="2"
+                    aria-label="Star two"
+                >
+                    ✦
+                </button>
+
+                <button
+                    class="constellation-star"
+                    type="button"
+                    data-star="1"
+                    aria-label="Star one"
+                >
+                    ✦
+                </button>
+
+                <button
+                    class="constellation-star"
+                    type="button"
+                    data-star="3"
+                    aria-label="Star three"
+                >
+                    ✦
+                </button>
+
+                <div class="constellation-line"></div>
+
+            </div>
+
+
+            <p
+                id="constellation-message"
+                class="activity-message"
+                aria-live="polite"
+            >
+                Your constellation is waiting.
+            </p>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             7. BIRTHDAY GARDEN
+        ====================================== -->
+
+        <section
+            id="garden"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    SOMETHING BEAUTIFUL GROWS
+                </p>
+
+                <h2>
+                    Your Birthday Garden
+                </h2>
+
+                <p>
+                    Every beautiful thing starts small.
+                    Give your birthday tree a little love
+                    and watch it grow.
+                </p>
+
+            </div>
+
+
+            <div class="birthday-garden">
+
+                <div class="garden-sky">
+                    ☁️ <span>✦</span> ☁️
+                </div>
+
+                <div
+                    id="birthday-tree"
+                    class="birthday-tree"
+                >
+                    🌱
+                </div>
+
+                <div class="garden-ground">
+                    🌿 🌷 🌿 🌼 🌿 🌷 🌿
+                </div>
+
+            </div>
+
+
+            <p
+                id="tree-message"
+                class="activity-message"
+                aria-live="polite"
+            >
+                A little seed, a little hope.
+            </p>
+
+
+            <p id="tree-progress">
+                Growth: 0 / 5
+            </p>
+
+
+            <button
+                id="grow-tree-button"
+                class="primary-button"
+                type="button"
+            >
+                Give Your Tree Some Love 🌿
+            </button>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             8. CAKE STUDIO
+        ====================================== -->
+
+        <section
+            id="cake-studio"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    MADE WITH EXTRA LOVE
+                </p>
+
+                <h2>
+                    Cake Studio
+                </h2>
+
+                <p>
+                    It's your birthday, chef!
+                    Let's decorate a cake worthy of
+                    the birthday king.
+                </p>
+
+            </div>
+
+
+            <div class="cake-studio-board">
+
+                <div class="cake-display">
+
+                    <div id="cake-base" class="cake-base">
+                        🎂
+                    </div>
+
+                    <div
+                        id="cake-toppings"
+                        class="cake-toppings"
+                    ></div>
+
+                </div>
+
+
+                <p class="cake-caption">
+                    A birthday cake, made just for you.
+                </p>
+
+
+                <div class="cake-options">
+
+                    <button
+                        class="cake-option"
+                        type="button"
+                        data-topping="🍓"
+                    >
+                        🍓 Strawberries
+                    </button>
+
+                    <button
+                        class="cake-option"
+                        type="button"
+                        data-topping="🍫"
+                    >
+                        🍫 Chocolate
+                    </button>
+
+                    <button
+                        class="cake-option"
+                        type="button"
+                        data-topping="🍒"
+                    >
+                        🍒 Cherries
+                    </button>
+
+                    <button
+                        class="cake-option"
+                        type="button"
+                        data-topping="✨"
+                    >
+                        ✨ Magic Sprinkles
+                    </button>
+
+                    <button
+                        class="cake-option"
+                        type="button"
+                        data-topping="💗"
+                    >
+                        💗 Extra Love
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <p
+                id="cake-message"
+                class="activity-message"
+                aria-live="polite"
+            >
+                Choose your favourite toppings.
+            </p>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             9. BADMINTON MOON
+        ====================================== -->
+
+        <section
+            id="badminton"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    A CHALLENGE FOR OUR CHAMPION
+                </p>
+
+                <h2>
+                    Badminton Moon
+                </h2>
+
+                <p>
+                    Ready, champion?
+                    Tap the shuttlecock as many times
+                    as you can in ten seconds.
+                </p>
+
+            </div>
+
+
+            <div class="badminton-arena">
+
+                <div class="badminton-moon">
+                    🌕
+                </div>
+
+                <div class="badminton-court">
+
+                    <div class="court-line"></div>
+
+                    <button
+                        id="shuttlecock"
+                        class="shuttlecock"
+                        type="button"
+                        aria-label="Tap the shuttlecock"
+                    >
+                        🏸
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="badminton-scoreboard">
+
+                <div class="score-item">
+
+                    <span class="score-label">
+                        YOUR SCORE
+                    </span>
+
+                    <strong id="badminton-score">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="score-item">
+
+                    <span class="score-label">
+                        TIME LEFT
+                    </span>
+
+                    <strong id="badminton-time">
+                        10
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <p
+                id="badminton-message"
+                class="activity-message"
+                aria-live="polite"
+            >
+                The court is yours.
+            </p>
+
+
+            <button
+                id="start-badminton"
+                class="primary-button"
+                type="button"
+            >
+                Start the Challenge 🏸
+            </button>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             10. SECRET DOOR
+        ====================================== -->
+
+        <section
+            id="secret-door"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    ONE LAST LITTLE SECRET
+                </p>
+
+                <h2>
+                    The Secret Door
+                </h2>
+
+                <p>
+                    A little door protects a little letter.
+                    To open it, answer this question about us.
+                </p>
+
+            </div>
+
+
+            <div class="secret-door-art">
+
+                <div class="door-moon">
+                    ☾
+                </div>
+
+                <div class="magical-door">
+                    <span class="door-star">✦</span>
+
+                    <span class="door-heart">♡</span>
+
+                    <span class="door-handle">●</span>
+                </div>
+
+            </div>
+
+
+            <div class="quiz-box">
+
+                <h3>
+                    When did our little story begin?
+                </h3>
+
+
+                <div class="quiz-options">
+
+                    <button
+                        class="quiz-option"
+                        type="button"
+                        data-answer="wrong"
+                    >
+                        2 August 2024
+                    </button>
+
+                    <button
+                        class="quiz-option"
+                        type="button"
+                        data-answer="correct"
+                    >
+                        19 October 2024
+                    </button>
+
+                    <button
+                        class="quiz-option"
+                        type="button"
+                        data-answer="wrong"
+                    >
+                        19 October 2025
+                    </button>
+
+                </div>
+
+
+                <p
+                    id="quiz-message"
+                    class="activity-message"
+                    aria-live="polite"
+                ></p>
+
+
+                <button
+                    id="open-letter-button"
+                    class="primary-button hidden"
+                    type="button"
+                    data-go="secret-letter"
+                >
+                    Open Your Secret Letter 💌
+                </button>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             11. SECRET BIRTHDAY LETTER
+        ====================================== -->
+
+        <section
+            id="secret-letter"
+            class="page activity-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="activity-heading">
+
+                <p class="eyebrow">
+                    FROM MY HEART TO YOURS
+                </p>
+
+                <h2>
+                    A Letter for My King
+                </h2>
+
+                <p>
+                    Some feelings deserve more than a message.
+                    They deserve their own little page in the universe.
+                </p>
+
+            </div>
+
+
+            <!-- Envelope -->
+
+            <div
+                id="letter-envelope"
+                class="letter-envelope"
+            >
+
+                <div class="envelope-stars">
+                    ✦ &nbsp; ✧ &nbsp; ✦
+                </div>
+
+                <div class="envelope-icon">
+                    💌
+                </div>
+
+                <p>
+                    A little letter, just for you.
+                </p>
+
+                <button
+                    id="open-envelope-button"
+                    class="primary-button"
+                    type="button"
+                >
+                    Open My Letter
+                </button>
+
+            </div>
+
+
+
+            <!-- Letter revealed after opening -->
+
+            <article
+                id="letter-page"
+                class="letter-page hidden"
+            >
+
+                <div class="letter-decoration">
+                    ✧ ───── ♡ ───── ✧
+                </div>
+
+
+                <p class="letter-to">
+                    To my king, 👑
+                </p>
+
+
+                <h3 class="letter-secret-message">
+
+                    Happy b'day my king, i love you so much,
+                    you're my sunshine ☀️💗
+
+                </h3>
+
+
+                <p>
+                    Happy 23rd birthday, my love. ♡
+                </p>
+
+
+                <p>
+                    Two years ago, on 19 October 2024,
+                    our story began. And somehow, all the
+                    little conversations and ordinary days
+                    became memories I want to keep close.
+                </p>
+
+
+                <p>
+                    I hope this new year of your life brings
+                    you peaceful mornings, beautiful adventures,
+                    good health, laughter, and all the things
+                    your heart quietly wishes for.
+                </p>
+
+
+                <p>
+                    Keep chasing the things you love.
+                    Keep cooking your delicious food,
+                    playing badminton, discovering beautiful
+                    corners of nature, and being wonderfully yourself.
+                </p>
+
+
+                <p>
+                    Thank you for being part of my world.
+                    I hope life is gentle with you and gives
+                    you countless reasons to smile.
+                </p>
+
+
+                <p>
+                    Happy birthday and happy two years to us.
+                    Here's to more little moments, more stories,
+                    and more stars in our universe.
+                </p>
+
+
+                <p class="letter-signature">
+
+                    Always cheering for you,
+
+                    <br>
+
+                    Your favourite person ♡
+
+                </p>
+
+
+                <div class="letter-decoration">
+                    ✧ ───── ♡ ───── ✧
+                </div>
+
+
+                <button
+                    class="primary-button"
+                    type="button"
+                    data-go="finale"
+                >
+                    Continue to Your Birthday Surprise ✨
+                </button>
+
+
+            </article>
+
+
+        </section>
+
+
+
+        <!-- =====================================
+             12. GRAND FINALE
+        ====================================== -->
+
+        <section
+            id="finale"
+            class="page finale-section hidden"
+        >
+
+            <button
+                class="back-button"
+                type="button"
+                data-go="universe"
+            >
+                ← Back to our universe
+            </button>
+
+
+            <div class="finale-universe">
+
+                <div class="finale-orbit finale-orbit-one"></div>
+
+                <div class="finale-orbit finale-orbit-two"></div>
+
+                <div class="finale-moon">
+                    ☾
+                </div>
+
+                <span class="finale-star finale-star-one">✦</span>
+
+                <span class="finale-star finale-star-two">✧</span>
+
+                <span class="finale-star finale-star-three">✦</span>
+
+                <span class="finale-star finale-star-four">✧</span>
+
+            </div>
+
+
+            <p class="eyebrow">
+                A LITTLE UNIVERSE CELEBRATING YOU
+            </p>
+
+
+            <h2 class="finale-title">
+                Happy Birthday,
+                <span>Kallul.</span>
+            </h2>
+
+
+            <div class="finale-number">
+                23
+            </div>
+
+
+            <p class="finale-subtitle">
+                Twenty-three looks like another year
+                of possibilities, adventures, dreams,
+                and beautiful things waiting to happen.
+            </p>
+
+
+            <div class="finale-message-card">
+
+                <span class="finale-card-icon">
+                    ♡
+                </span>
+
+                <p>
+                    If the universe could give you one gift,
+                    I hope it would be a life full of peace,
+                    happiness, good health, and countless
+                    reasons to smile.
+                </p>
+
+                <p>
+                    Keep being you.
+                    Keep dreaming.
+                    Keep discovering the world.
+                </p>
+
+                <p class="finale-last-line">
+                    And never forget how special you are. ☀️
+                </p>
+
+            </div>
+
+
+            <div class="anniversary-note">
+
+                <span>19.10.2024</span>
+
+                <span class="anniversary-heart">♡</span>
+
+                <span>19.10.2026</span>
+
+            </div>
+
+
+            <p class="finale-footer">
+
+                Two years of us.
+
+                <br>
+
+                A little beginning, and so many pages still to write.
+
+            </p>
+
+
+            <button
+                class="primary-button"
+                type="button"
+                data-go="universe"
+            >
+                Wander Through Our Universe Again 🌌
+            </button>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer class="site-footer">
+
+        <p>
+            Made of stardust, little memories,
+            and a whole lot of love.
+        </p>
+
+        <span>♡ KALLUL-23 ♡</span>
+
+    </footer>
+
+
+
+    <!-- Our interaction file -->
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
